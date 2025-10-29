@@ -1,4 +1,3 @@
-'use client';
 import "@/app/globals.css";
 import React, { useState, useEffect } from "react";
 import {
@@ -148,6 +147,8 @@ export default function DistrictDashboard() {
   const handleRefresh = () => {
     if (selectedDistrict) fetchDistrictData();
   };
+
+  'use client';
 
   const InfoCard = ({
     icon: Icon,
