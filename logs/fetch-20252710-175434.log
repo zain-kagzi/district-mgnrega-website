@@ -1,0 +1,31 @@
+Starting MGNREGA Data Fetch Job at 27-10-2025 17:54:34.96 
+
+╔════════════════════════════════════════════╗
+║  MGNREGA Data Fetch Job Started          ║
+╚════════════════════════════════════════════╝
+
+Started at: 27/10/2025, 5:54:36 pm
+
+❌ Job failed: error: password authentication failed for user "mgnrega_user"
+    at C:\Users\Asus\Desktop\mgnrega-dashboard\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchAllDistrictsData (C:\Users\Asus\Desktop\mgnrega-dashboard\src\jobs\fetch-mgnrega-data.js:104:18) {
+  length: 108,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '320',
+  routine: 'auth_failed'
+}
+Job completed at 27-10-2025 17:54:36.55 
